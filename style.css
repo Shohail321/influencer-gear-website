@@ -2,9 +2,14 @@
 
 
 /* header section styles */
-body{
-    margin-left: 250px;
-    margin-right: 250px;
+
+main{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+header{
+    margin-right: 200px;
+    margin-left: 200px;
 }
 .navbar{
     display: flex;
@@ -69,11 +74,14 @@ span{
 
 /* sponsor section style */
 .sponsors{
+  
     border: 1px solid rgb(250, 244, 244);
     border-left: none;
     border-right: none;
     border-radius: 50px;
+    margin: 0 auto;
     margin-top: 50px;
+
 }
 .sponsor-icon{
    display: grid;
@@ -82,17 +90,103 @@ span{
   
 
 }
+.popular-collection{
+   
+    margin: 0 auto;
+
+}
+
+
+.popular-title{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
 .popular-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 40px;
 
 }
 
 .popular-card{
-    padding: 10px;
+    width: 300px;
+    padding: 15px;
     box-shadow: 0px 8px 8px 5px rgba(5, 5, 5, 0.06);
+    border-radius: 8px;
 }
+.card-title{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #18191F;
+    line-height: 1;
+
+}
+.card-price{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 0;
+}
+.availibility{
+    color: #646262;
+}
+.see-more{
+    max-width: 1050px;
+    margin: 40px;
+    align-items: end;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.see-more a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #E02C6D;
+    font-weight: bolder;
+
+}
+
+
+.feature-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.feature-info{
+    margin-left: 120px;
+    padding: auto;
+    
+}
+
+.title{
+    font-size: 2.7rem;
+    margin: 0 auto;
+}
+
+.btn{
+    margin-top: 20px;
+    background-color: #E02C6D;
+    color: aliceblue;
+    border: none;
+    padding: 15px 40px;
+    cursor: pointer;
+
+}
+
+.footer-section{
+    
+    margin: 0;
+}
+
+
+
+
+
+
+
+
 
 
 
